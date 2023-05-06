@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projecte 1</title>
+    <link href="output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/dd918bcd41.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="flex flex-col my-0 mx-auto max-w-screen-2xl dark:bg-gray-900">
+    <!--Header-->
+    <header
+        class="grid grid-cols-2 px-10 border-b border-gray-300 dark:border-gray-700 shadow-lg p-5 gap-x-10 sticky z-30 top-0 left-0 right-0 bg-white dark:bg-gray-900 dark:text-white">
+        <div class="flex items-center">
+            <h1 class="text-blue-600 dark:text-blue-300 font-bold text-xl">LOGO</h1>
+        </div>
+        <nav class="hidden lg:flex gap-x-4 place-content-between items-center text-sm font-light">
+            <a class="hover:text-emerald-500" href="/index.html">Home</a>
+            <a class="hover:text-emerald-500" href="/aboutus.html">About us</a>
+            <a class="hover:text-emerald-500" href="/ourservices.html">Services</a>
+            <a class="flex before:content-ellipse before:pr-1 before:relative before:top-[-5px] text-blue-600 dark:text-blue-300"
+                href="/blog.html">Blog</a>
+            <button class="bg-blue-600 text-white rounded-md px-3 py-2 hover:bg-emerald-500"><a
+                    href="/contactus.html">Contact
+                    us</a></button>
+        </nav>
+        <div class="lg:hidden flex items-center justify-end"><i
+                class="fa-solid fa-bars text-gray-400 text-xl hover:text-emerald-500 cursor-pointer"></i></div>
+    </header>
+
+    <!--Main-->
+    <main class="dark:bg-gray-900">
+        <!--Latest news-->
+        <div class="flex flex-col items-center dark:text-white mt-16 text-center">
+            <div class="w-[50%] lg:w-[25%]">
+                <h2 class="text-3xl md:text-2xl lg:text-3xl xl:text-4xl lg:leading-10 xl:leading-12 font-semibold">
+                    Latest news</h2>
+                <h3
+                    class="text-3xl md:text-2xl lg:text-3xl xl:text-4xl lg:leading-10 xl:leading-12 font-semibold text-blue-600 dark:text-blue-300">
+                    Updates</h3>
+                <p class="text-gray-500 dark:text-gray-100 pt-7 text-lg">Lorem Ipsum is simply dummy text of the
+                    printing.</p>
+                <div><label for=""><input class="bg-gray-100 dark:bg-gray-600 py-2 px-4 w-full rounded-md mt-12"
+                            type="search" id="default-search" class="rounded focus:outline-blue-600"
+                            placeholder="&#xF002;&nbsp &nbsp Search" style="font-family:Arial, FontAwesome !important"
+                            required></label>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-around gap-8 mt-16 px-16 md:px-24 ">
+                <div
+                    class="text-sm rounded-2xl bg-gray-100 dark:bg-gray-600 text-blue-600 dark:text-blue-200 px-4 py-1 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-800">
+                    <p>Lorem ipsum</p>
+                </div>
+                <div
+                    class="text-sm rounded-2xl bg-gray-100 dark:bg-gray-600 text-blue-600 dark:text-blue-200 px-4 py-1 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-800">
+                    <p>Lorem ipsum</p>
+                </div>
+                <div
+                    class="text-sm rounded-2xl bg-gray-100 dark:bg-gray-600 text-blue-600 dark:text-blue-200 px-4 py-1 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-800">
+                    <p>Lorem ipsum</p>
+                </div>
+                <div
+                    class="text-sm rounded-2xl bg-gray-100 dark:bg-gray-600 text-blue-600 dark:text-blue-200 px-4 py-1 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-800">
+                    <p>Lorem ipsum</p>
+                </div>
+                <div
+                    class="text-sm rounded-2xl bg-gray-100 dark:bg-gray-600 text-blue-600 dark:text-blue-200 px-4 py-1 cursor-pointer hover:bg-emerald-100 dark:hover:bg-emerald-800">
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+        </div>
+        <!--Highlighted-->
+        <section
+            class="grid grid-cols-1 lg:grid-cols-2 px-16 pr-16 md:px-24 dark:text-white dark:bg-gray-900 gap-x-10 pt-28">
+            <div class="flex flex-col justify-around">
+                <img src="/img/blogpc.png" alt="Ordenador">
+            </div>
+            <div class="flex flex-wrap gap-y-8 gap-x-10 justify-between items-center">
+                <h4 class="font-semibold">Lorem Ipsum is simply dummy text of the printing.</h4>
+                <p class="text-gray-500 dark:text-gray-100">KODEX TECHNOLOGY (PVT) LTD is a team of experienced
+                    mobile and web applications and website builders measuring dozens of
+                    completed projects.</p>
+                <div class="flex gap-x-6">
+                    <img class="w-14" src="img/man1.png" alt="Man 1">
+                    <div>
+                        <p class="font-semibold">Name here</p>
+                        <p class="text-gray-500 dark:text-gray-100 text-sm">20.12.2020</p>
+                    </div>
+                </div>
+                <div><a class="text-blue-600 dark:text-blue-300 text-sm pr-10 hover:text-emerald-500" href="#">Read
+                        more</a></div>
+            </div>
+        </section>
+        <!--Articles-->
+        <section class="flex flex-wrap gap-x-16 gap-y-20 px-16 md:px-24 justify-between my-28 dark:text-white">
+            <!--Card 1-->
+            <div class="flex flex-col flex-1 min-w-[250px] lg:min-w-[300px]">
+                <img src="img/suit.png" alt="Hombre con traje">
+                <h4 class="text-2xl my-6 font-semibold">Lorem Ipsum is simply dummy text of the printing.</h4>
+                <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the.</p>
+                <div class="flex gap-x-6 mt-6">
+                    <img class="w-14" src="img/woman1.png" alt="Mujer 1">
+                    <div>
+                        <p class="font-semibold">Name here</p>
+                        <p class="text-gray-500 dark:text-gray-100 text-sm">20.12.2020</p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 2-->
+            <div class="flex flex-col flex-1 min-w-[250px] lg:min-w-[300px]">
+                <img src="img/desk.png" alt="Escritorio">
+                <h4 class="text-2xl my-6 font-semibold">Lorem Ipsum is simply dummy text of the printing.</h4>
+                <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the.</p>
+                <div class="flex gap-x-6 mt-6">
+                    <img class="w-14" src="img/man2.png" alt="Hombre 2">
+                    <div>
+                        <p class="font-semibold">Name here</p>
+                        <p class="text-gray-500 dark:text-gray-100 text-sm">20.12.2020</p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 3-->
+            <div class="flex flex-col flex-1 min-w-[250px] lg:min-w-[300px]">
+                <img src="img/twoscreens.png" alt="2 pantallas">
+                <h4 class="text-2xl my-6 font-semibold">Lorem Ipsum is simply dummy text of the printing.</h4>
+                <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the.</p>
+                <div class="flex gap-x-6 mt-6">
+                    <img class="w-14" src="img/woman2.png" alt="Mujer 3">
+                    <div>
+                        <p class="font-semibold">Name here</p>
+                        <p class="text-gray-500 dark:text-gray-100 text-sm">20.12.2020</p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 4-->
+            <div class="flex flex-col flex-1 min-w-[250px] lg:min-w-[300px]">
+                <img src="img/suit.png" alt="Hombre con traje">
+                <h4 class="text-2xl my-6 font-semibold">Lorem Ipsum is simply dummy text of the printing.</h4>
+                <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the.</p>
+                <div class="flex gap-x-6 mt-6">
+                    <img class="w-14" src="img/woman1.png" alt="Mujer 1">
+                    <div>
+                        <p class="font-semibold">Name here</p>
+                        <p class="text-gray-500 dark:text-gray-100 text-sm">20.12.2020</p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 5-->
+            <div class="flex flex-col flex-1 min-w-[250px] lg:min-w-[300px]">
+                <img src="img/desk.png" alt="Escritorio">
+                <h4 class="text-2xl my-6 font-semibold">Lorem Ipsum is simply dummy text of the printing.</h4>
+                <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the.</p>
+                <div class="flex gap-x-6 mt-6">
+                    <img class="w-14" src="img/man2.png" alt="Hombre 2">
+                    <div>
+                        <p class="font-semibold">Name here</p>
+                        <p class="text-gray-500 dark:text-gray-100 text-sm">20.12.2020</p>
+                    </div>
+                </div>
+            </div>
+            <!--Card 6-->
+            <div class="flex flex-col flex-1 min-w-[250px] lg:min-w-[300px]">
+                <img src="img/twoscreens.png" alt="2 pantallas">
+                <h4 class="text-2xl my-6 font-semibold">Lorem Ipsum is simply dummy text of the printing.</h4>
+                <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the
+                    industry's standard
+                    dummy text ever since the.</p>
+                <div class="flex gap-x-6 mt-6">
+                    <img class="w-14" src="img/woman2.png" alt="Mujer 3">
+                    <div>
+                        <p class="font-semibold">Name here</p>
+                        <p class="text-gray-500 dark:text-gray-100 text-sm">20.12.2020</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer>
+        <!--Footer top-->
+        <div class="bg-blue-100 dark:bg-blue-800 flex flex-col relative items-center text-center py-32">
+            <div><img class="absolute w-[70px] top-[-40px] left-20" src="img/Star.png" alt="Estrella"></div>
+            <div><img class="absolute w-[60px] top-20 right-10 md:right-32 lg:right-64" src="img/spiral.png"
+                    alt="Espiral">
+            </div>
+            <p class="dark:text-white px-16 md:px-24 sm:w-[70%] lg:w-[50%] xl:w-[40%] text-3xl font-medium leading-10">
+                Lorem
+                Ipsum is
+                simply dummy
+                text of
+                the printing.
+            </p>
+            <div class="flex gap-x-3 mt-10 text-sm font-light w-4/5 md:w-3/5 lg:w-2/5"><input
+                    class="rounded-md p-4 w-full" type="email" placeholder="Enter your email"><button
+                    class="bg-black py-2 px-5 text-white border border-black rounded-md hover:bg-white hover:text-black">SUBSCRIBE</button>
+            </div>
+        </div>
+        <!--Footer bottom-->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-8 px-16 lg:px-24 gap-x-14 py-20 dark:bg-gray-900">
+            <div class="col-span-1 md:col-span-3 lg:col-span-3 flex flex-col lg:justify-between">
+                <h1 class="text-blue-600 dark:text-blue-300 font-bold text-lg pb-4">LOGO</h1>
+                <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                    industry.</p>
+                <p class="text-gray-600 dark:text-gray-200">@Lorem</p>
+            </div>
+            <div class="col-span-1 lg:col-span-1 flex flex-col lg:justify-between">
+                <p class="font-medium pt-6 lg:pb-4 dark:text-white">About us</p>
+                <ul class="text-gray-600 dark:text-gray-200">
+                    <li>Lorem</li>
+                    <li>Portfolio</li>
+                    <li>Careers</li>
+                    <li>Contact us</li>
+                </ul>
+            </div>
+            <div class="col-span-1 lg:col-span-2 flex flex-col lg:justify-between">
+                <p class="font-medium pt-6 lg:pb-4 dark:text-white">Contact us</p>
+                <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting
+                    industry.</p>
+                <p class="text-gray-600 dark:text-gray-200">+908 89097 890</p>
+            </div>
+            <div class="col-span-1 lg:col-span-2 flex gap-x-3 items-start lg:items-end pt-6">
+                <div
+                    class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div
+                    class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div
+                    class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div
+                    class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+        <!--Footer copyright-->
+        <div
+            class="flex py-7 justify-center border-t border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-100 dark:bg-gray-900 text-xs">
+            <p>Copyright ® 2021 Lorem All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+
+</html>

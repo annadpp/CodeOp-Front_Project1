@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.875rem;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+.hero-img {
+  background-image: url("img/man_computer.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.hero-contact {
+  background-image: url("img/map.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

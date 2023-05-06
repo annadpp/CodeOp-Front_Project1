@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projecte 1</title>
+    <link href="output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/dd918bcd41.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="flex flex-col my-0 mx-auto max-w-screen-2xl dark:bg-gray-900">
+    <!--Header-->
+    <header
+        class="grid grid-cols-2 px-10 border-b border-gray-300 dark:border-gray-700 shadow-lg p-5 gap-x-10 sticky z-30 top-0 left-0 right-0 bg-white dark:bg-gray-900 dark:text-white">
+        <div class="flex items-center">
+            <h1 class="text-blue-600 dark:text-blue-300 font-bold text-xl">LOGO</h1>
+        </div>
+        <nav class="hidden lg:flex gap-x-4 place-content-between items-center text-sm font-light">
+            <a class="hover:text-emerald-500" href="/index.html">Home</a>
+            <a class="hover:text-emerald-500" href="/aboutus.html">About us</a>
+            <a class="hover:text-emerald-500" href="/ourservices.html">Services</a>
+            <a class="hover:text-emerald-500" href="/blog.html">Blog</a>
+            <button class="text-white rounded-md px-3 py-2 bg-purple-700"><a href="/contactus.html">Contact
+                    us</a></button>
+        </nav>
+        <div class="lg:hidden flex items-center justify-end"><i
+                class="fa-solid fa-bars text-gray-400 text-xl hover:text-emerald-500 cursor-pointer"></i></div>
+    </header>
+    <!--Main-->
+    <main class="dark:bg-gray-900">
+        <!--Hero-->
+        <div class="flex flex-col dark:text-white gap-x-10 px-16 h-[90vh] md:px-24 mt-20">
+            <div class="grid grid-cols-1 lg:grid-cols-5 grid-rows-5 lg:grid-rows-1 gap-x-10 h-[60vh]">
+                <div class="flex flex-col justify-center lg:col-span-2 row-span-2 order-2 lg:order-1">
+                    <img class="w-[70px] mb-6" src="/img/3dicon.png" alt="Icono persona">
+                    <h2 class="text-3xl xl:text-4xl font-semibold lg:leading-10 xl:leading-12">
+                        Let's Collaborate</h2>
+                    <p class="text-gray-500 dark:text-gray-100 pt-7 text-lg">Lorem Ipsum is simply dummy text of the
+                        printing.</p>
+                </div>
+                <div
+                    class="lg:col-span-3 row-span-3 order-1 lg:order-2 self-center justify-start md:mt-40 mb-20 lg:mt-0">
+                    <img class="mt-20 md:mt-0" src="img/map.png" alt="">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 grid-rows-2 lg:grid-rows-1 items-center">
+                <div class="mr-10 flex items-baseline gap-x-4 lg:flex-col">
+                    <p>Follow us</p>
+                    <div class="flex gap-x-3 items-start lg:items-end pt-6">
+                        <div
+                            class="rounded-full px-3 py-2 shadow-lg dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div
+                            class="rounded-full px-3 py-2 shadow-lg dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                        <div
+                            class="rounded-full px-3 py-2 shadow-lg dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                            <i class="fa-brands fa-twitter"></i>
+                        </div>
+                        <div
+                            class="rounded-full px-3 py-2 shadow-lg dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="flex gap-x-4 items-center lg:h-full lg:border-x lg:border-gray-300 dark:border-gray-700 lg:justify-center">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <p>+94 4444 5555 6</p>
+                </div>
+                <div class="flex gap-x-4 items-center lg:justify-end lg:pl-10 row-span-1">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>but also the leap into electronic
+                        typesetting</p>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <!--Footer top-->
+            <div class="bg-blue-100 dark:bg-blue-800 flex flex-col items-center py-14 px-16 md:px-24">
+                <p class="dark:text-white text-center text-3xl">Say hello</p>
+                <p class="text-gray-600 dark:text-gray-200 text-center mt-4">Lorem Ipsum is simply dummy text of the
+                    printing.</p>
+                <form action="#" method="POST" class="flex flex-col gap-y-4 w-[100%] lg:w-[50%] mt-20" action="#"
+                    method="get">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-4">
+                        <div class="col-span-1 flex flex-col w-full"><label class="dark:text-white" for="fname">First
+                                Name</label>
+                            <input class="rounded-md p-3 mt-2" id="fname" type="text" name="fname">
+                        </div>
+                        <div class="col-span-1 flex flex-col w-full"><label class="dark:text-white" for="lname">Last
+                                Name</label>
+                            <input class="rounded-md p-3 w-full mt-2" id="lname" type="text" name="lname">
+                        </div>
+                    </div>
+                    <div class="flex flex-col"><label class="dark:text-white" for="email">Email Address</label>
+                        <input class="rounded-md p-3 mt-2" id="email" type="email" name="email">
+                    </div>
+                    <div class="flex flex-col"><label class="dark:text-white" for="message">Message</label>
+                        <textarea class="rounded-md p-3 h-56 mt-2" id="message" name="message"></textarea>
+                    </div>
+                    <div class="flex justify-end"><button
+                            class="bg-blue-600 text-white rounded-md px-9 py-2 mt-8 w-48 hover:bg-emerald-500">Get in
+                            touch</button></div>
+                </form>
+            </div>
+            <!--Footer bottom-->
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-8 px-16 lg:px-24 gap-x-14 py-20 dark:bg-gray-900">
+                <div class="col-span-1 md:col-span-3 lg:col-span-3 flex flex-col lg:justify-between">
+                    <h1 class="text-blue-600 dark:text-blue-300 font-bold text-lg pb-4">LOGO</h1>
+                    <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry.</p>
+                    <p class="text-gray-600 dark:text-gray-200">@Lorem</p>
+                </div>
+                <div class="col-span-1 lg:col-span-1 flex flex-col lg:justify-between">
+                    <p class="font-medium pt-6 lg:pb-4 dark:text-white">About us</p>
+                    <ul class="text-gray-600 dark:text-gray-200">
+                        <li>Lorem</li>
+                        <li>Portfolio</li>
+                        <li>Careers</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="col-span-1 lg:col-span-2 flex flex-col lg:justify-between">
+                    <p class="font-medium pt-6 lg:pb-4 dark:text-white">Contact us</p>
+                    <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry.</p>
+                    <p class="text-gray-600 dark:text-gray-200">+908 89097 890</p>
+                </div>
+                <div class="col-span-1 lg:col-span-2 flex gap-x-3 items-start lg:items-end pt-6">
+                    <div
+                        class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div
+                        class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div
+                        class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div
+                        class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <!--Footer copyright-->
+            <div
+                class="flex py-7 justify-center border-t border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-100 dark:bg-gray-900 text-xs">
+                <p>Copyright ® 2021 Lorem All Rights Reserved</p>
+            </div>
+        </footer>
+</body>
+
+</html>

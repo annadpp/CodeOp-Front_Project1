@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projecte 1</title>
+    <link href="output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/dd918bcd41.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="flex flex-col my-0 mx-auto max-w-screen-2xl overflow-x-hidden dark:bg-gray-900">
+    <!--Header-->
+    <header
+        class="grid grid-cols-2 px-10 border-b border-gray-300 dark:border-gray-700 shadow-lg p-5 gap-x-10 sticky z-40 top-0 left-0 right-0 bg-white dark:bg-gray-900 dark:text-white">
+        <div class="flex items-center">
+            <h1 class="text-blue-600 dark:text-blue-300 font-bold text-xl">LOGO</h1>
+        </div>
+        <nav class="hidden lg:flex gap-x-4 place-content-between items-center text-sm font-light">
+            <a class="hover:text-emerald-500" href="/index.html">Home</a>
+            <a class="hover:text-emerald-500" href="/aboutus.html">About us</a>
+            <a class="flex before:content-ellipse before:pr-1 before:relative before:top-[-5px] text-blue-600 dark:text-blue-300"
+                href="/ourservices.html">Services</a>
+            <a class="hover:text-emerald-500" href="/blog.html">Blog</a>
+            <button class="bg-blue-600 text-white rounded-md px-3 py-2 hover:bg-emerald-500"><a
+                    href="/contactus.html">Contact us</a></button>
+        </nav>
+        <div class="lg:hidden flex items-center justify-end"><i
+                class="fa-solid fa-bars text-gray-400 text-xl hover:text-emerald-500 cursor-pointer"></i></div>
+    </header>
+
+    <!--Background-->
+    <div
+        class="flex-col absolute items-center bg-blue-100 dark:bg-blue-800 dark:text-white h-[700px] w-[1536px] pt-2 z-0">
+    </div>
+
+    <!--Container-->
+    <div class="z-30 mt-20">
+        <!--Main-->
+        <main>
+            <!--About us-->
+            <div class="flex flex-col left-0 right-0 my-auto mx-auto items-center">
+                <img class="w-[100px]" src="img/altavoz.png" alt="Altavoz">
+                <h2 class="text-3xl xl:text-4xl font-light my-8 dark:text-white">Our <span
+                        class="text-blue-600 dark:text-blue-200 font-semibold">Services</span></h2>
+                <p class="text-gray-600 dark:text-gray-200 w-[50%] lg:w-[25%] text-center">Lorem Ipsum is simply dummy
+                    text
+                    of the
+                    printing and
+                    typesetting industry. Lorem Ipsum has been the industry's</p>
+                <!--Services-->
+                <section
+                    class="flex flex-wrap relative dark:bg-gray-900 shadow-2xl dark:text-white gap-y-6 md:gap-y-0 p-10 bg-white mx-16 md:mx-24 justify-center mt-16">
+                    <div><img class="absolute w-[100px] top-[-50px] right-16" src="img/succulent.png" alt="Suculenta">
+                    </div>
+                    <div
+                        class="flex gap-4 items-center w-full md:w-[45%] md:border-b md:border-r md:border-gray-300 md:dark:border-gray-700 md:pr-6 md:pb-6">
+                        <div><img class="min-w-[60px] max-w-[70px]" src="img/about_mobile.png" alt="Icono mobile">
+                        </div>
+                        <div class="flex flex-col">
+                            <h3>Mobile applications</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-100">The simplest but robust technology to
+                                accompany
+                                with you</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex gap-4 items-center w-full md:w-[45%] md:border-b md:border-gray-300 md:dark:border-gray-700 md:pl-6 md:pb-6">
+                        <div><img class="min-w-[60px] max-w-[70px]" src="img/about_web.png" alt="Icono web"></div>
+                        <div class="flex flex-col">
+                            <h3>Web application</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-100">Platform independant business solutions
+                                for
+                                maximum availability</p>
+                        </div>
+                    </div>
+                    <div
+                        class="flex gap-4 items-center w-full md:w-[45%] md:border-r md:border-gray-300 md:dark:border-gray-700 md:pr-6 md:pt-6 ">
+                        <div><img class="min-w-[60px] max-w-[70px]" src="img/about_SEO.png" alt="Icono SEO"></div>
+                        <div class="flex flex-col">
+                            <h3>SEO</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-100">Let the world find you on top of
+                                others
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-center w-full md:w-[45%] md:pl-6 md:pt-6">
+                        <div><img class="min-w-[60px] max-w-[70px]" src="img/about_AR.png" alt="Icono AR/VR"></div>
+                        <div class="flex flex-col">
+                            <h3>AR/VR</h3>
+                            <p class="text-sm text-gray-500 dark:text-gray-100">Advanced autonomous technologies to make
+                                life
+                                simple</p>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <!--Content-->
+            <section
+                class="grid grid-cols-1 lg:grid-cols-2 dark:text-white dark:bg-gray-900 gap-x-10 py-28 px-16 lg:px-24 bg-white justify-center">
+                <div class="flex flex-col justify-around order-2 lg:order-1">
+                    <h4><span class="text-blue-600 dark:text-blue-300">Lorem Ipsum</span> is simply dummy text of the
+                        printing.</h4>
+                    <p class="text-gray-500 dark:text-gray-100 pt-7">KODEX TECHNOLOGY (PVT) LTD is a team of experienced
+                        mobile and web applications and website builders measuring dozens of
+                        completed projects. We build and develop mobile applications for several top platforms,
+                        including
+                        Android & IOS.
+                    </p>
+                    <p class="text-gray-500 dark:text-gray-100 pt-7">KODEX TECHNOLOGY (PVT) LTD is a team of experienced
+                        mobile and web applications and website builders
+                        measuring dozens</p>
+                    <button
+                        class="bg-white border border-blue-500 dark:border-blue-100 text-blue-600 rounded-md px-9 mt-7 py-2 w-44 hover:border-emerald-500 hover:text-emerald-500">Contact
+                        us</button>
+                </div>
+                <div class="flex mb-10 gap-10 order-1 lg:order-2 self-center sm:px-24 lg:px-0">
+                    <img src="img/services.png" alt="Dos personas trabajando">
+                </div>
+            </section>
+            <!--Numbers-->
+            <section
+                class="flex flex-wrap relative gap-10 justify-around bg-blue-600 dark:bg-blue-800 text-white py-28 px-16 lg:px-24 w-[100vw] max-w-screen-2xl">
+                <div class="flex flex-col text-center">
+                    <p class="text-5xl font-semibold">6</p>
+                    <p>Happy clients</p>
+                </div>
+                <div class="flex flex-col text-center">
+                    <p class="text-5xl font-semibold">11</p>
+                    <p>Completed Projects</p>
+                </div>
+                <div class="flex flex-col text-center">
+                    <p class="text-5xl font-semibold">7M</p>
+                    <p>Transactions</p>
+                </div>
+                <div class="flex flex-col text-center">
+                    <p class="text-5xl font-semibold">6000+</p>
+                    <p>Customers</p>
+                </div>
+            </section>
+            <div class="relative">
+                <div>
+                    <div><img class="absolute w-[180px] top-[-460px] md:top-[-350px] right-28" src="img/bell_line.png"
+                            alt="Campana">
+                    </div>
+                    <div><img class="absolute w-[130px] top-[-40px] md:top-[-370px] left-16" src="img/line_services.png"
+                            alt="Línea">
+                    </div>
+                    <div><img class="absolute w-[280px] bottom-[-40px] left-0" src="img/succulent_line.png"
+                            alt="Campana">
+                    </div>
+                </div>
+            </div>
+            <!--Our latest projects-->
+            <div class="px-16 lg:px-24 w-[100vw] max-w-screen-2xl items-center">
+                <h2 class="dark:text-white mt-36 mb-10">Our latest
+                    projects</h2>
+            </div>
+            <div
+                class="flex flex-col mb-32 pb-6 gap-16 px-16 md:px-24 dark:bg-gray-900 w-[100vw] max-w-screen-2xl overflow-x-auto scrollbar-thin scrollbar-thumb-purple-700 scrollbar-track-transparent">
+                <div class="flex gap-16 pb-6">
+                    <div class="flex flex-col gap-y-4 min-w-[350px]"><img src="/img/working.png"
+                            alt="3 personas trabajando">
+                        <p class="text-sm text-gray-500 dark:text-gray-100">Lorem Ipsum is simply dummy text of the
+                            printing.</p>
+                        <p class="text-sm font-medium dark:text-white">Lorem Ipsum is simply dummy text of the printing
+                            and
+                            typesetting industry.</p>
+                    </div>
+                    <div class="flex flex-col gap-y-4 min-w-[350px]"><img src="/img/hands.png"
+                            alt="Escribiendo en portátil">
+                        <p class="text-sm text-gray-500 dark:text-gray-100">Lorem Ipsum is simply dummy text of the
+                            printing.</p>
+                        <p class="text-sm font-medium dark:text-white">Lorem Ipsum is simply dummy text of the printing
+                            and
+                            typesetting industry. Lorem Ipsu</p>
+                    </div>
+                    <div class="flex flex-col gap-y-4 min-w-[350px]"><img src="/img/pccoffee.png"
+                            alt="Portátil y taza de café">
+                        <p class="text-sm text-gray-500 dark:text-gray-100">Lorem Ipsum is simply dummy text of the
+                            printing.</p>
+                        <p class="text-sm font-medium dark:text-white">Lorem Ipsum is simply dummy text of the printing
+                            and
+                            typesetting industry. Lorem</p>
+                    </div>
+                    <div class="flex flex-col gap-y-4 min-w-[350px]"><img src="/img/pcjuice.png"
+                            alt="Portátil y refresco">
+                        <p class="text-sm text-gray-500 dark:text-gray-100">Lorem Ipsum is simply dummy text of the
+                            printing.</p>
+                        <p class="text-sm font-medium dark:text-white">Lorem Ipsum is simply dummy text of the printing
+                            and
+                            typesetting industry. Lorem</p>
+                    </div>
+                    <div class="flex flex-col gap-y-4 min-w-[350px]"><img src="/img/working.png"
+                            alt="3 personas trabajando">
+                        <p class="text-sm text-gray-500 dark:text-gray-100">Lorem Ipsum is simply dummy text of the
+                            printing.</p>
+                        <p class="text-sm font-medium dark:text-white">Lorem Ipsum is simply dummy text of the printing
+                            and
+                            typesetting industry.</p>
+                    </div>
+                    <div class="flex flex-col gap-y-4 min-w-[350px]"><img src="/img/hands.png"
+                            alt="Escribiendo en portátil">
+                        <p class="text-sm text-gray-500 dark:text-gray-100">Lorem Ipsum is simply dummy text of the
+                            printing.</p>
+                        <p class="text-sm font-medium dark:text-white">Lorem Ipsum is simply dummy text of the printing
+                            and
+                            typesetting industry. Lorem Ipsu</p>
+                    </div>
+                    <div class="flex flex-col gap-y-4 min-w-[350px]"><img src="/img/pccoffee.png"
+                            alt="Portátil y taza de café">
+                        <p class="text-sm text-gray-500 dark:text-gray-100">Lorem Ipsum is simply dummy text of the
+                            printing.</p>
+                        <p class="text-sm font-medium dark:text-white">Lorem Ipsum is simply dummy text of the printing
+                            and
+                            typesetting industry. Lorem</p>
+                    </div>
+                    <div class="flex flex-col gap-y-4 min-w-[390px] pr-10"><img src="/img/pcjuice.png"
+                            alt="Portátil y refresco">
+                        <p class="text-sm text-gray-500 dark:text-gray-100">Lorem Ipsum is simply dummy text of the
+                            printing.</p>
+                        <p class="text-sm font-medium dark:text-white">Lorem Ipsum is simply dummy text of the printing
+                            and
+                            typesetting industry. Lorem</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!--Footer-->
+        <footer class="flex flex-col w-[100vw] max-w-screen-2xl">
+            <!--Footer top-->
+            <div class="bg-blue-100 dark:bg-blue-800 flex flex-col relative items-center text-center py-32">
+                <div><img class="absolute w-[70px] top-[-40px] left-20" src="img/Star.png" alt="Estrella"></div>
+                <div><img class="absolute w-[60px] top-20 right-10 md:right-32 lg:right-64" src="img/spiral.png"
+                        alt="Espiral">
+                </div>
+                <p
+                    class="dark:text-white px-16 md:px-24 sm:w-[70%] lg:w-[50%] xl:w-[40%] text-3xl font-medium leading-10">
+                    Lorem
+                    Ipsum is
+                    simply dummy
+                    text of
+                    the printing.
+                </p>
+                <div class="flex gap-x-3 mt-10 text-sm font-light w-4/5 md:w-3/5 lg:w-2/5"><input
+                        class="rounded-md p-4 w-full" type="email" placeholder="Enter your email"><button
+                        class="bg-black py-2 px-5 text-white border border-black rounded-md hover:bg-white hover:text-black">SUBSCRIBE</button>
+                </div>
+            </div>
+            <!--Footer bottom-->
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-8 px-16 lg:px-24 gap-x-14 py-20 dark:bg-gray-900">
+                <div class="col-span-1 md:col-span-3 lg:col-span-3 flex flex-col lg:justify-between">
+                    <h1 class="text-blue-600 dark:text-blue-300 font-bold text-lg pb-4">LOGO</h1>
+                    <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry.</p>
+                    <p class="text-gray-600 dark:text-gray-200">@Lorem</p>
+                </div>
+                <div class="col-span-1 lg:col-span-1 flex flex-col lg:justify-between">
+                    <p class="font-medium pt-6 lg:pb-4 dark:text-white">About us</p>
+                    <ul class="text-gray-600 dark:text-gray-200">
+                        <li>Lorem</li>
+                        <li>Portfolio</li>
+                        <li>Careers</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="col-span-1 lg:col-span-2 flex flex-col lg:justify-between">
+                    <p class="font-medium pt-6 lg:pb-4 dark:text-white">Contact us</p>
+                    <p class="text-gray-600 dark:text-gray-200">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting
+                        industry.</p>
+                    <p class="text-gray-600 dark:text-gray-200">+908 89097 890</p>
+                </div>
+                <div class="col-span-1 lg:col-span-2 flex gap-x-3 items-start lg:items-end pt-6">
+                    <div
+                        class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div
+                        class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div
+                        class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div
+                        class="rounded-full px-3 py-2 shadow-lg bg-white dark:text-gray-200 dark:bg-blue-500 hover:bg-emerald-500 cursor-pointer hover:text-white">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+            </div>
+            <!--Footer copyright-->
+            <div
+                class="flex py-7 justify-center border-t border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-100 dark:bg-gray-900 text-xs">
+                <p>Copyright ® 2021 Lorem All Rights Reserved</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
